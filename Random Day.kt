@@ -1,16 +1,25 @@
-import java.util.*
+import java.util.*;
+fun randomDay():String{
+    val week= listOf("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    return week[Random().nextInt(week.size)]
+}
 
-fun main(args: Array<String>)
-{
-    feedTheFish()
+fun fishFood(day:String) : String{
+    return when(day){
+        "Monday" -> "Flakes"
+        "Wednesday" -> "RedWorms"
+        "Friday" -> "Granules"
+        "Sunday" -> "Mosquitoes"
+        else -> "Nothing"
+    }
+
 }
 fun feedTheFish(){
     val day=randomDay()
-    val food="Patlets"
+    val food=fishFood(day)
+    println("Today is $day and the fish eat $food")
 
-    println("Today is the $day and the fish eAat $food")
 }
-fun randomDay() : String{
-    val week= listOf("Monday","Tuesday","WednesDay","Thursday","Friday","Saturday","Sunday")
-    return week[Random().nextInt(7)]
+fun main(args:Array<String>){
+    feedTheFish()
 }
