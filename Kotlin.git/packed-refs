@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled 
+4f1bcba61e28269a842dfc2e5d1dadd8bfd5fba9 refs/heads/Step-05-to-Step-09
+c8ac0abe8b1d74c9fb01843f67a29dddf4b0e940 refs/heads/Step.02-Exercise-Lets-Navigate-Already
+c8ac0abe8b1d74c9fb01843f67a29dddf4b0e940 refs/heads/Step.03-Exercise-Conditional-Navigation
+4f1bcba61e28269a842dfc2e5d1dadd8bfd5fba9 refs/heads/Step.04-Exercise-Back-Stack-Manipulation
+4f1bcba61e28269a842dfc2e5d1dadd8bfd5fba9 refs/heads/master
+7e72d700db40d1b058e0d8e35fc6ad46e3e14432 refs/pull/1/head
+c8ac0abe8b1d74c9fb01843f67a29dddf4b0e940 refs/pull/2/head
+9a770f95435c15215ac0375df8d0ebd577607b4f refs/pull/3/head
